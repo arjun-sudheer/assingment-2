@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Header;
+    src: url('../fonts/Facon.ttf');
+}
+@font-face {
+    font-family: murder;
+    src: url('../fonts/ethnocentric\ rg\ it.otf');
+}
+body {
+    background-color: #908c8c;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('../video/ezgif.com-video-to-gif.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+header {
+    background-color: #232323;
+    color: #bc5757;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1 {
+    flex: 1;
+    margin: 0;
+    font-size: 4rem;
+    text-align: right;
+    font-family:murder;
+
+}
+
+header div img{
+    width: auto;
+    height: 110px;
+}
+
+.pic-header{
+    background-image:url("../images/cover\ header.jpg") ;
+    background-size:cover ;
+    border-radius: 12px;
+}
+.pic-header div:nth-child(1){
+    background-color: rgba(0, 0, 0, .9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0px;
+    border-radius: 12px;
+}
+.pic-header h2{
+    color: #bc5757;
+    font-size: 70px;
+    margin-bottom: 70px;
+    letter-spacing: .25em;
+    font-family:Header;
+
+}
+.container-width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#myVideo {
+    width: 100%;
+    border-radius: 12px;
+}
+
+main {
+    padding: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.tri-body {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.tri-body div {
+    min-height: 400px;
+    color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tri-body div h5 {
+    font-size: 42px;
+    margin: 15px;
+}
+
+.tri-body div:nth-child(1) {
+    background-color: rgba(12, 23, 27, 0.7);
+    font-family: Header;
+}
+
+.tri-body div:nth-child(2) {
+    background-color: rgba(48, 10, 10, 0.7);
+    font-family: murder;
+}
+
+.tri-body div:nth-child(3) {
+    background-color: rgba(6, 23, 28, 0.7);
+    font-family: Header;
+}
+
+.tri-body div:nth-child(4) {
+    background-color: rgba(54, 42, 2, 0.7);
+    font-family: murder;
+}
